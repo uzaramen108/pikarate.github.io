@@ -1,0 +1,172 @@
+/* 중앙 정렬 CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(32,33,36);
+    color: rgb(190,193,197);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: rgb(190,193,197);
+}
+
+nav ul a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(190,193,197);
+}
+
+nav ul a:hover {
+    color: #007BFF;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.img1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.img2 img {
+    display: block;
+    margin: 0 auto;
+    transform: translate(-400px, 0px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form label, form input, form select, form button, form a {
+    margin: 5px 0;
+}
+
+input[type="password"] {
+    width: 30%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input.text1 {
+    width: 30%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input.text2 {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+select {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+section.record1{
+    border: 1px solid #ddd;
+    width: 780px;
+    height: 200px;
+    transform: translate(100px, -583px);
+}
+
+section.record2 {
+    transform: translate(100px, -600px);
+}
+
+section.ver2 {
+    transform: translate(-400px, 100px);
+}
+
+section.ver3 {
+    transform: translate(0px, -25px);
+}
+
+button, input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table.main1 {
+    width: 200px;
+    transform: translate(-400px, -129px);
+}    
+
+ul.regist3 {
+    transform: translate(200px, -140px);
+}
+
+footer {    
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(32,33,36);
+    color: rgb(190,193,197);
+    text-align: center;
+}

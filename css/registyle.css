@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+    color: rgb(190,193,197);
+    background-color: rgb(32,33,36);
+}
+
+header {
+    margin: 30px auto;
+    font-size: 18px;
+}
+
+form {
+    margin: 20px auto;
+}
+
+table {
+    margin: 0 auto; /* 테이블을 가로 방향으로 가운데 정렬 */
+    text-align: center; /* 테이블 내 텍스트를 가운데 정렬 */
+}
+
+input {
+    margin: 3% 2%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+}
+
+label {
+    margin: 12% 2%;
+}
